@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+int penjumlahan (int x, int y)
+{
+  return (x+y);
+}
+int pengurangan (int x, int y)
+{
+  return (x-y);
+}
+int pengalian (int x, int y)
+{
+  return (x*y);
+}
+double pembagian (double x, double y)
+{
+  return (x/y);
+}
+
+int main()
+{
+  int hasil1,hasil2,hasil3,a,b;
+  double hasil4;
+  cout<<"fungsi prototype"<<endl;
+  cout<<"angka pertama = ";cin>>a;
+  cout<<"angka kedua = ";cin>>b;
+  hasil1 = penjumlahan (a,b);
+  hasil2 = pengurangan (a,b);
+  hasil3 = pengalian (a,b);
+  hasil4 = pembagian (a,b);
+  cout<<"hasil Penjumlahan = "<<hasil1<<endl;
+  cout<<"hasil Pengurangan = "<<hasil2<<endl;
+  cout<<"hasil Perkalian = "<<hasil3<<endl;
+  cout<<"hasil Pembagian = "<<hasil4<<endl;
+  return 0;
+}
